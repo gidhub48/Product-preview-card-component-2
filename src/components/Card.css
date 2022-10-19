@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.Card{
+    max-width: 600px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: hsl(0, 0%, 100%);
+}
+
+.Card > section {
+    flex: 1 1 300px;
+}
+
+.Card > .CardProduct{
+    padding: 1.5rem;
+}
+.CardProduct-price > :where(h1,h5){
+    display: inline-block;
+    vertical-align: middle;
+}
+.CardProduct-price{
+    padding: 0 0 1rem;
+}
+.CardProduct-price > h1{
+    padding-right: 1rem;
+    color: var(--DarkCyan);
+}
+.CardProduct > h1{
+    padding: 1rem 1rem 0 0;
+    color: var(--VeryDarkBlue);
+}
+.CardProduct-price > h5{
+    text-decoration: line-through;
+}
+.Card-AddCard{
+    width: 100%;
+    padding: 1rem;
+    color: var(--White);
+    background-color: var(--DarkCyan);
+    border-radius: .5rem;
+}
+.Card-AddCard > img{
+    vertical-align: middle;
+}
+
+img.icon{
+    width: 1rem;
+    margin-right: .5rem;
+    display: inline-block;
+}
+
+.clrDGB {
+    color: var(--DarkGrayishBlue);
+}
+
+.fw500{font-weight: 500;}
+.fw700{font-weight: 700;}
